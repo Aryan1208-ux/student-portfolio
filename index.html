@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description"
+        content="Aryan Kumar - BCA Student and Python Developer Portfolio">
+
     <title>Aryan Kumar | Python Developer</title>
 
     <link rel="stylesheet" href="style.css">
@@ -11,50 +14,95 @@
 
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav>
-            <h2>Aryan Kumar</h2>
+<header>
+    <nav class="navbar">
 
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <a href="#home" class="logo">Aryan Kumar</a>
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open menu">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
 
 
-    <!-- Home -->
+<main>
+
+    <!-- ================= HOME ================= -->
+
     <section id="home" class="hero">
 
-        <div class="hero-text">
+        <div class="hero-content reveal">
 
-            <p class="intro">Hello, I'm</p>
+            <p class="eyebrow">HELLO, I'M</p>
 
             <h1>Aryan Kumar</h1>
 
-            <h2>Python Developer</h2>
+            <h2>Python Developer & BCA Student</h2>
 
-            <p class="description">
-                BCA student at Dayananda Sagar University, passionate about
-                Python programming, software development and building useful projects.
+            <p class="hero-description">
+                A BCA student at Dayananda Sagar University passionate about
+                Python development, web development, automation and building
+                useful real-world projects.
             </p>
 
             <div class="hero-buttons">
-                <a href="#projects" class="button">View My Projects</a>
+
+                <a href="#projects" class="button">
+                    View My Projects
+                </a>
 
                 <a href="#contact" class="button secondary">
                     Contact Me
                 </a>
 
-                <a href="https://github.com/Aryan1208-ux"
-                   class="button"
-                   target="_blank">
+                <a
+                    href="https://github.com/Aryan1208-ux"
+                    target="_blank"
+                    rel="noopener"
+                    class="button secondary">
                     GitHub
                 </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card reveal">
+
+            <div class="code-window">
+
+                <div class="dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <pre><code>name = "Aryan Kumar"
+role = "Python Developer"
+
+skills = [
+    "Python",
+    "Web Development",
+    "Git & GitHub"
+]
+
+print("Let's build something!")</code></pre>
+
             </div>
 
         </div>
@@ -62,171 +110,404 @@
     </section>
 
 
-    <!-- About -->
-    <section id="about">
+    <!-- ================= ABOUT ================= -->
 
-        <h2>About Me</h2>
+    <section id="about" class="section">
 
-        <div class="about-content">
+        <div class="section-heading reveal">
 
-            <p>
-                I am Aryan Kumar, a BCA student at Dayananda Sagar University
-                with a strong interest in Python programming and software development.
-            </p>
+            <p class="eyebrow">ABOUT ME</p>
 
-            <p>
-                I enjoy learning new technologies, creating projects and
-                improving my programming skills through practical experience.
-            </p>
-
-            <p>
-                My goal is to build a career in software development and
-                gain real-world experience through internships and projects.
-            </p>
+            <h2>Turning ideas into projects.</h2>
 
         </div>
 
-    </section>
 
+        <div class="about-grid">
 
-    <!-- Skills -->
-    <section id="skills">
-
-        <h2>My Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="skill-card">
-                <h3>Python</h3>
-                <p>Programming & problem solving</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>HTML</h3>
-                <p>Web page structure</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>CSS</h3>
-                <p>Web design & responsive layouts</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>JavaScript</h3>
-                <p>Interactive web development</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Git & GitHub</h3>
-                <p>Version control & project management</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>SQL</h3>
-                <p>Database fundamentals</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Projects -->
-    <section id="projects">
-
-        <h2>My Projects</h2>
-
-        <div class="projects-container">
-
-            <div class="project-card">
-
-                <h3>Personal Portfolio</h3>
+            <div class="about-text reveal">
 
                 <p>
-                    A responsive personal portfolio website built using
-                    HTML, CSS and JavaScript.
+                    I am Aryan Kumar, a Bachelor of Computer Applications
+                    (BCA) student at Dayananda Sagar University with a strong
+                    interest in Python programming, web development and
+                    software development.
                 </p>
 
-                <span>HTML • CSS • JavaScript</span>
+                <p>
+                    I enjoy learning new technologies, solving programming
+                    problems and creating practical projects that solve
+                    real-world problems.
+                </p>
 
-                <br><br>
+                <p>
+                    I am currently looking for internship opportunities where
+                    I can improve my technical skills, gain industry
+                    experience and contribute to meaningful projects.
+                </p>
 
-                <a href="https://github.com/Aryan1208-ux/student_portfolio"
-                   target="_blank">
-                    View on GitHub
+            </div>
+
+
+            <div class="info-card reveal">
+
+                <div>
+                    <span>Focus</span>
+                    <strong>Python Development</strong>
+                </div>
+
+                <div>
+                    <span>Education</span>
+                    <strong>BCA</strong>
+                </div>
+
+                <div>
+                    <span>University</span>
+                    <strong>Dayananda Sagar University</strong>
+                </div>
+
+                <div>
+                    <span>Looking For</span>
+                    <strong>Internship Opportunities</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">SKILLS</p>
+
+            <h2>Technologies I work with.</h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <article class="skill-card reveal">
+
+                <span class="skill-icon">Py</span>
+
+                <h3>Python</h3>
+
+                <p>
+                    Programming, automation and problem solving.
+                </p>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <span class="skill-icon">&lt;/&gt;</span>
+
+                <h3>HTML & CSS</h3>
+
+                <p>
+                    Clean, responsive and modern web interfaces.
+                </p>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <span class="skill-icon">JS</span>
+
+                <h3>JavaScript</h3>
+
+                <p>
+                    Interactive frontend functionality.
+                </p>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <span class="skill-icon">Git</span>
+
+                <h3>Git & GitHub</h3>
+
+                <p>
+                    Version control and project collaboration.
+                </p>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <span class="skill-icon">SQL</span>
+
+                <h3>SQL</h3>
+
+                <p>
+                    Database fundamentals and SQL queries.
+                </p>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <span class="skill-icon">PS</span>
+
+                <h3>Problem Solving</h3>
+
+                <p>
+                    Logical thinking and programming fundamentals.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">PROJECTS</p>
+
+            <h2>Things I've built.</h2>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 01 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-number">01</div>
+
+                <h3>Student Portfolio</h3>
+
+                <p>
+                    A responsive personal portfolio website created to
+                    showcase my skills, education and projects.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>GitHub Pages</span>
+                </div>
+
+                <a
+                    href="https://github.com/Aryan1208-ux/student-portfolio"
+                    target="_blank"
+                    rel="noopener"
+                    class="project-link">
+                    View on GitHub →
+                </a>
+
+            </article>
+
+
+            <!-- PROJECT 02 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-number">02</div>
+
+                <h3>Python Project</h3>
+
+                <p>
+                    A Python-based project demonstrating programming logic,
+                    problem solving and practical application of Python.
+                </p>
+
+                <div class="tags">
+                    <span>Python</span>
+                    <span>Programming</span>
+                    <span>Logic</span>
+                </div>
+
+                <a
+                    href="https://github.com/Aryan1208-ux"
+                    target="_blank"
+                    rel="noopener"
+                    class="project-link">
+                    View GitHub Profile →
+                </a>
+
+            </article>
+
+
+            <!-- PROJECT 03 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-number">03</div>
+
+                <h3>Web Development Project</h3>
+
+                <p>
+                    A frontend project focused on creating a responsive
+                    website using modern HTML, CSS and JavaScript.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a
+                    href="https://github.com/Aryan1208-ux"
+                    target="_blank"
+                    rel="noopener"
+                    class="project-link">
+                    View GitHub Profile →
+                </a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="section">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">EDUCATION</p>
+
+            <h2>My academic journey.</h2>
+
+        </div>
+
+
+        <div class="timeline reveal">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div>
+
+                    <p class="timeline-label">CURRENT</p>
+
+                    <h3>
+                        Bachelor of Computer Applications (BCA)
+                    </h3>
+
+                    <p>
+                        Dayananda Sagar University
+                    </p>
+
+                    <p>
+                        Bengaluru, India
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">CONTACT</p>
+
+            <h2>Let's work together.</h2>
+
+        </div>
+
+
+        <div class="contact-box reveal">
+
+            <p>
+                Interested in working together or discussing an internship
+                opportunity? Feel free to get in touch.
+            </p>
+
+
+            <div class="contact-buttons">
+
+                <a
+                    href="mailto:aryan290704@gmail.com"
+                    class="button">
+                    Email Me
+                </a>
+
+
+                <a
+                    href="https://github.com/Aryan1208-ux"
+                    target="_blank"
+                    rel="noopener"
+                    class="button secondary">
+                    GitHub
+                </a>
+
+
+                <!-- Replace # with your LinkedIn URL -->
+
+                <a
+                    href="#"
+                    class="button secondary"
+                    id="linkedinLink">
+                    LinkedIn
                 </a>
 
             </div>
 
 
-            <div class="project-card">
-
-                <h3>Python Projects</h3>
-
-                <p>
-                    Collection of Python programming projects created
-                    to practice programming and problem solving.
-                </p>
-
-                <span>Python</span>
-
-            </div>
-
-
-            <div class="project-card">
-
-                <h3>Coming Soon</h3>
-
-                <p>
-                    More software development projects will be added here.
-                </p>
-
-                <span>Future Project</span>
-
-            </div>
+            <small>
+                LinkedIn link can be added once you provide your profile URL.
+            </small>
 
         </div>
 
     </section>
 
-
-    <!-- Contact -->
-    <section id="contact">
-
-        <h2>Contact Me</h2>
-
-        <p>
-            Interested in working together or discussing an internship opportunity?
-        </p>
-
-        <div class="contact-buttons">
-
-            <a href="mailto:aryan290704@gmail.com" class="button">
-                Email Me
-            </a>
-
-            <a href="https://github.com/Aryan1208-ux"
-               target="_blank"
-               class="button secondary">
-                GitHub
-            </a>
-
-        </div>
-
-    </section>
+</main>
 
 
-    <!-- Footer -->
-    <footer>
+<!-- ================= FOOTER ================= -->
 
-        <p>
-            © 2026 Aryan Kumar. All Rights Reserved.
-        </p>
+<footer>
 
-    </footer>
+    <p>
+        © <span id="year"></span> Aryan Kumar
+    </p>
+
+    <p>
+        Python Developer | BCA Student
+    </p>
+
+</footer>
 
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
