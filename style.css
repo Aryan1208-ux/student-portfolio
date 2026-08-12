@@ -59,6 +59,12 @@ header {
     color: var(--accent);
 }
 
+.logo,
+.logo:hover,
+.logo:visited {
+    color: var(--accent);
+    text-decoration: none;
+}
 .nav-links {
     display: flex;
     list-style: none;
